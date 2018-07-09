@@ -1,0 +1,29 @@
+<div class="container">
+  <br>
+    <div class="film-box">
+      <div class="film-img">
+        <img [src]="film.poster == 'N/A' ? '../../../../assets/img/NoImage_Available.png' : film.poster" alt="">
+      </div>
+      <div class="film-content">
+          <div class="button-row" *ngIf="buttonStatus">
+              <button mat-raised-button color="warn" (click)="saveFilm(film)" >Save</button>
+          </div>
+          <h1>{{film.title}}</h1>
+          <b>Actors:</b> {{film.actors}} <br>
+          <b>Language:</b> {{film.language}} <br>
+          <b>Runtime:</b> {{film.runtime}} <br>
+          <b>Released:</b> {{film.released}} <br>
+          <b>Type:</b> {{film.type}} <br>
+          <b>Writer:</b> {{film.writer}} <br>
+          <b>Year:</b> {{film.year}} <br>
+          <b>Rated:</b> {{film.rated}} <br>
+          <b>Genre:</b> {{film.genre}} <br>
+          <b>Country:</b> {{film.country}} <br>
+          <b>Awards:</b> {{film.awards}} <br>
+          <b>Plot:</b> {{film.plot}} <br>
+      </div>
+    </div>
+
+</div>
+
+<br><br>

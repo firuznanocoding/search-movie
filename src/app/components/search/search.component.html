@@ -1,0 +1,53 @@
+<div class="container">
+  
+  <mat-grid-list cols="4" rowHeight="2:1">
+    <mat-grid-tile>
+      <mat-card>
+        <p>Film 1</p>
+        <div class="button-row">
+          <button mat-raised-button color="primary" routerLink="/movie-detail" [queryParams]="{'film': 'Film 1'}" >More Info</button>
+          <button mat-raised-button color="warn">Delete</button>
+        </div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card>
+          <p>Film 2</p>
+        <div class="button-row">
+          <button mat-raised-button color="primary" routerLink="/movie-detail" [queryParams]="{'film': 'Film 2'}">More Info</button>
+          <button mat-raised-button color="warn">Delete</button>
+        </div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card>
+            <p>Film 3</p>
+          <div class="button-row">
+            <button mat-raised-button color="primary" routerLink="/movie-detail" [queryParams]="{'film': 'Film 3'}">More Info</button>
+            <button mat-raised-button color="warn">Delete</button>
+          </div>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card>
+            <p>Film 4</p>
+          <div class="button-row">
+            <button mat-raised-button color="primary" routerLink="/movie-detail" [queryParams]="{'film': 'Film 4'}">More Info</button>
+            <button mat-raised-button color="warn">Delete</button>
+          </div>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card>
+          <p>Film 4</p>
+        <div class="button-row">
+          <button mat-raised-button color="primary" routerLink="/movie-detail" [queryParams]="{'film': 'Film 4'}">More Info</button>
+          <button mat-raised-button color="warn">Delete</button>
+        </div>
+      </mat-card>
+  </mat-grid-tile>
+  </mat-grid-list>
+
+</div>
+
+<br><br>

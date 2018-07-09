@@ -1,0 +1,8 @@
+.film-box{
+    display: flex;
+
+}
+
+.film-box div{
+    padding: 0 10px;
+}
